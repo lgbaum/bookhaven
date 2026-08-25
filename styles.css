@@ -1,0 +1,131 @@
+
+body {
+  display: grid; 
+  margin: 0;
+  font-family: Arial normal, sans-serif;
+  background-color: #fff7ee;
+  color: #131c26;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #2e4057;
+  display: flex;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff7ee;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+footer {
+  background-color: #2e4057;
+  color: #fff7ee;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+section {
+  margin: 1rem;
+  padding: 2rem;
+}
+
+h1 {
+  /* font-family: 'Georgia Bold', serif; */
+  font-family:'Courier New', Courier, monospace;
+  text-decoration: underline #ee583f;
+}
+
+h1.title {
+  color: #fff7ee;
+  padding: 1rem;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Georgia Bold', serif;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: 'Arial Bold', sans-serif;
+  font-size: 20px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 1rem;
+  margin: 0;
+}
+
+p {
+  font-family: Arial normal, sans-serif;
+  font-size: 16px;
+  margin: 0 0 1rem;
+}
+
+button, input[type="submit"] {
+  background-color: #c7b65e;
+  border: none;
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #357ab8;
+}
+
+button.cta {
+  background-color: #2e4057;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+  font-size: 1.25rem;
+}
+
+#close-modal {
+  background-color: #ee583f;
+}
+
+#main-image {
+  display: block;
+  margin: 1rem auto;
+  margin-bottom: 0;
+  width: 1300px;
+  height: 600px;
+}
+
+td.button {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+table.gallery td {
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+}
+
+dialog {
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  border: 2px solid #2e4057;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+        <title>Book Haven</title>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Book Haven Logo" width="100" height="100">
+            <h1 class="title">Book Haven</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="staffpicks.html">Staff Picks</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </nav>
+        </header>
+ 
+        <img id="main-image" src="images/bookhaven.png" alt="Photo of Book Haven Store">
+
+        <section id="promo">
+            <h1>Discover Your Next Favorite Book</h1>
+            <h3>From bestsellers to hidden gems, we have something for every book lover. Explore our wide selection of books, magazines, journals, and more and take 15% off your first purchase!</h3>
+            <button class="cta" onclick="window.location.href='shop.html'">Shop Now</button>
+        </section>
+
+        <!-- Bestselling Books Section -->
+        <section id="featured">
+            <table>
+                <tr>
+                    <td colspan="3">
+                        <h2>Shop Bestsellers</h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/Client3_Book1.png" alt="Book 1">
+                        <h3>Brie Mine 4ever - $24.99</h3>
+                        <p></p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </td>
+                    <td>
+                        <img src="images/Client3_Notebook.png" alt="Notebook">
+                        <h3>Book Haven Journal - $12.99</h3>
+                        <p></p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </td>
+                    <td>
+                        <img src="images/Client3_Book3.png" alt="Book 3">
+                        <h3>Sorceror's Shadowed Chronicles - $29.99</h3>
+                        <p></p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="button" colspan="3">
+                        <button class="cta"onclick="window.location.href='shop.html'">See All</button>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="client-hightlights">
+            <h2>Client Highlights</h2>
+            <h3>Read what our customers are saying about their experience at Book Haven!</h3>
+            <ul>
+                <li>
+                    <p>"I found the perfect book for my vacation! The staff was so helpful and knowledgeable." - Sarah L.</p>
+                </li>
+                <li>
+                    <p>"Book Haven has an amazing selection of books. I always find something new to read!" - James K.</p>
+                </li>
+                <li>
+                    <p>"The atmosphere in the store is so vibrant and welcoming. I love spending time here." - Emily R.</p>
+                </li>
+        </section>
+
+        <!-- Footer -->
+        <footer id="subscribe">
+            <h2>Subscribe to our Newsletter</h2>
+            <form method="post">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button id="subscribe-button" type="submit">Subscribe</button>
+            </form>
+        </footer>
+    </body>
+</html>

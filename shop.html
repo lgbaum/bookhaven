@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+  <head>
+      <link rel="stylesheet" href="styles.css">
+      <script src="script.js" defer></script>
+      <script src="scripts/shop.js" defer></script>
+      <title>Book Haven </title>
+    </head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Book Haven Logo" width="100" height="100">
+    <h1 class="title">Book Haven</h1>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="staffpicks.html">Staff Picks</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <!-- The Modal Dialog -->
+  <dialog id="modal">
+    <h1>Shopping Cart</h1>
+    <ul id="cart-info" style="display: block;">
+      <li>Your shopping cart is empty.</li>
+    </ul><br>
+    <button class="cta" id="clear-cart">Clear Cart</button>
+    <button class="cta" id="process-order">Process Order</button>
+    <button class="cta" id="close-modal">Close</button>
+  </dialog>
+
+  <section>
+    <table class="gallery">
+      <tr>
+        <td colspan="2">
+          <h1>Shop Books</h1>
+        </td>
+        <td style="text-align: right;">
+          <button id="open-modal-button" class="cta">View Cart</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="images/Client3_Book1.png" alt="Book 1 cover">
+          <h3>Brie Mine 4ever - $24.99</h3>
+          <p>A cozy memoir that explores the complexities of human relationships and the drama of everyday life.</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </td>
+        <td>
+          <img src="images/Client3_Book2.png" alt="Book 2 cover">
+          <h3>Glory Riders - $19.99</h3>
+          <p>An exciting tale of courage and adventure that will transport you to a world of wonder and excitement!</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </td>
+        <td>
+          <img src="images/Client3_Book3.png" alt="Book 3 cover">
+          <h3>Sorceror's Shadowed Chronicles - $29.99</h3>
+          <p>A captivating story of magic and mystery, with twists and turns that will keep you guessing until the very end.</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <h1>Shop Magazines</h1>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="images/Client3_Magazine1.png" alt="Magazine 1 cover">
+          <h3>Ball Magazine - $5.99</h3>
+          <p>Ball Magazine is your source for the latest news and updates in the world of sports.</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </td>
+        <td>
+          <img src="images/Client3_Magazine2.png" alt="Magazine 2 cover">
+          <h3>Travel Today - $6.99</h3>
+          <p>Travel Today is your guide to the best travel destinations and experiences around the world.</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </td>
+        <td>
+          <img src="images/Client3_Magazine3.png" alt="Magazine 3 cover">
+          <h3>Eat Weekly - $7.99</h3>
+          <p>Eat Weekly is your source for the latest food trends and recipes from around the world.</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <h1>Shop Merch</h1>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="images/Client3_Notebook.png" alt="Notebook cover">
+          <h3>Book Haven Journal - $12.99</h3>
+          <p></p>
+          <button class="add-to-cart">Add to Cart</button>
+        </td>
+        <td>
+          <img src="images/Client3_Stickers.png" alt="Stickers cover">
+          <h3>Book Haven Stickers - $5.99</h3>
+          <p></p>
+          <button class="add-to-cart">Add to Cart</button>
+        </td>
+        <td>
+          <img src="images/Client3_ToteBag.png" alt="Tote Bag cover">
+          <h3>Book Haven Tote Bag - $29.99</h3>
+          <p></p>
+          <button class="add-to-cart">Add to Cart</button>
+        </td>
+      </tr>
+    </table>
+
+  </section>
+
+  <footer id="subscribe">
+      <h2>Subscribe to our Newsletter</h2>
+      <form method="post">
+          <input type="email" name="email" placeholder="Enter your email" required>
+          <button id="subscribe-button" type="button">Subscribe</button>
+      </form>
+  </footer>
+</body>
+</html>

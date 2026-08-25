@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+        <title>Book Haven </title>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Book Haven Logo" width="100" height="100">
+            <h1 class="title">Book Haven</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="staffpicks.html">Staff Picks</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <img id="main-image" src="images/bookhaven.png" alt="Photo of Book Haven Store">
+
+        <section id="aboutus">
+            <h1>About Us</h1>
+            <h3>Welcome to Book Haven! We like to think of our store as being a local treasure for book enthusiasts, offering a diverse selection of books, magazines, journals, and office supplies.</h3>
+            <h3>With a deep-rooted commitment to fostering literary exploration and a love for reading, we serve a broad audience of book lovers and knowledge seekers in search of high-quality reading materials and office essentials.</h3>
+            <h3>Come join us in celebrating the written word, fostering an inviting space that encourages literary discovery, and supporting intellectual growth in our community.</h3>
+            <h1>Hours and Location</h1>
+            <h3>Visit us at 555 Broad St, New York, NY 10001.</h3>
+            <h3>Our hours of operation:</h3>
+            <ul style="display: block;">
+                <li>Monday–Friday: 9 a.m. to 8 p.m.</li>
+                <li>Saturday: 10 a.m. to 6 p.m.</li>
+                <li>Sunday: 11 a.m. to 5 p.m.</li>
+            </ul>
+            <h1>Contact Info</h1>
+            <h3>Email for inquiries and feedback at info@bookhaven.com or call the store at (718) 555-5555.</h3>
+            <div>
+                <p>If you would like to submit feedback here, or reach out about a custom order, please fill out the form below:</p>
+                <form id="feedback-form" method="post">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                    <input id="submit-feedback" type="submit">
+                </form>
+            </div>
+        </section>
+        
+        <footer id="subscribe">
+            <h2>Subscribe to our Newsletter</h2>
+            <form method="post">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button id="subscribe-button" type="button">Subscribe</button>
+            </form>
+        </footer>
+    </body>
+</html>
